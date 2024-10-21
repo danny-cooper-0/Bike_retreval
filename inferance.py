@@ -7,7 +7,7 @@ import smtplib
 from email.mime.text import MIMEText
 import torch.nn as nn
 
-# CNN model definition (same as provided earlier)
+# CNN model definition 
 class CNNFull(nn.Module):
     def __init__(self, n_classes):
         super(CNNFull, self).__init__()
